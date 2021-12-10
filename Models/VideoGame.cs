@@ -9,6 +9,7 @@ namespace Final_Project.Models
         [Key]
         public int GameId {get; set;}
 
+        [Display(Title = "Title")]
         [Required(ErrorMessage = "Title is required")]
         public string Title {get; set;}
         public string AvgCompletionTime {get; set;}
