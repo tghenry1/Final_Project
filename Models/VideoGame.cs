@@ -8,11 +8,13 @@ namespace Final_Project.Models
     {
         [Key]
         public int GameId {get; set;}
+
+        [Required(ErrorMessage = "Title is required")]
         public string Title {get; set;}
         public string AvgCompletionTime {get; set;}
         public string Genre {get; set;}
-        public string price {get; set;}
-        public string AvgRating {get; set;}
+        public string Price {get; set;}
+        public int AvgRating {get; set;}
     }
 
     public class VideoGameStreamer
