@@ -142,7 +142,7 @@ namespace Final_Project.Models
                         {
                             Title = "Grand Theft Auto V",
                             AvgCompletionTime = "50 hours",
-                            Genre = "Action Adventure",
+                            Genre = "Action/Adventure",
                             Price = "$15",
                             AvgRating = 97
                         },
@@ -165,7 +165,7 @@ namespace Final_Project.Models
                         new VideoGame
                         {
                             Title = "Old School Runescape",
-                            AvgCompletionTime = "2400 hours",
+                            AvgCompletionTime = "2400+ hours",
                             Genre = "MMORPG",
                             Price = "Free w/ optional monthly membership",
                             AvgRating = 87
